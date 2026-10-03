@@ -1,11 +1,8 @@
 name: Manual Native Bundle
-
-on:
-  workflow_dispatch:
-
+'on':
+  workflow_dispatch: {}
 permissions:
   contents: read
-
 jobs:
   build:
     uses: ./.github/workflows/_native-build.yml
